@@ -26,3 +26,19 @@ foreach ($sage_includes as $file) {
   require_once $filepath;
 }
 unset($file, $filepath);
+//For fixing navigation in Sage. Added 25/11/15
+require_once('wp_bootstrap_navwalker.php');
+
+$home = "homepage";
+acf_add_options_page( $home );
+
+add_action('pre_get_posts', 'remove_podpress_from_automatic_excerpts');
+function remove_podpress_from_automatic_excerpts() {
+  /* This function removes podPress elements from post content on the homepage of the blog. It helps especially if the home page shows only excerpts of the posts.*/
+  if ( is_home() ) {
+    global $podPress;
+    if ( TRUE=== isset($podPress) AND TRUE === is_object($podPress) ) {
+      remove_filter('the_content', array(&$podPress, 'insert_content'));
+    }
+  }
+}

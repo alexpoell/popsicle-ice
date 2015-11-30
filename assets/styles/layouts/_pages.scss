@@ -1,0 +1,66 @@
+.hero-video {
+  margin-bottom: 50px;
+}
+
+
+  .video-box {
+    border: 1px solid white;
+    padding: 15px;
+  }
+
+  .hero-left {
+    font-size: 22px;
+  }
+
+  .hero-right {
+    font-size: 19px;
+  }
+
+  .white-box {
+    background: white;
+    padding: 20px;
+
+    margin-bottom: 20px;
+  }
+
+ .white-box:first-of-type {
+    background: white;
+    padding: 20px;
+
+    margin-bottom: 20px;
+    margin-top:20px;
+  }
+
+.updated {
+  color: #B1B1B1;
+}
+
+.entry-summary {
+    padding-top: 10px;
+}
+
+/* Author boxes on home page -- MOVE THIS LATER */
+.creators {
+  color: $purple;
+  padding: 40px 40px 40px 40px;
+  background: white;
+  margin-top: 40px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
+-moz-box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
+box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
+
+  @include center();
+
+  img {
+    padding-bottom: 10px;
+  }
+
+  p {
+    padding-bottom: 10px;
+  }
+}
+
+.powerpress_links {
+  padding-top: 20px;
+}

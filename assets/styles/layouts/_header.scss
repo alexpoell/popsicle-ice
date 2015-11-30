@@ -1,0 +1,33 @@
+.brand {
+  text-transform: uppercase;
+}
+
+.slogan {
+  color: $light;
+}
+
+.navbar-default {
+  background: transparent;
+  border: transparent;
+}
+
+.navbar li {
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: $purple;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  color: $purple;
+  border-bottom: 1px solid $purple;
+  background: transparent;
+}
+
+.dark-block {
+  background-color: #424242;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
