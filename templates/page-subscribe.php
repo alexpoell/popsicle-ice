@@ -3,6 +3,7 @@
 Template Name: Subscribe page
 */
 ?>
+<?php get_template_part('templates/page', 'header'); ?>
 </div></div>
 <div class="holder">
 
@@ -14,8 +15,8 @@ Template Name: Subscribe page
       </div>
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 convert">
-          <h3>LAUNCHING NOVEMBER 30, 2015</h3>
-          <p>Join Charli and Femke as they chat about their obsession with creating, what keeps them motivated and how they balance projects on top of full time work. Want to be notified when our show drops? Sign up below and we’ll email you with each new episode.</p>
+          <h3><?php the_field('purple_header'); ?></h3>
+          <p><?php the_field('subscribe_description'); ?></p>
 
           <div class="row">
           <form action="http://designlife.us12.list-manage1.com/subscribe/post" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate="">

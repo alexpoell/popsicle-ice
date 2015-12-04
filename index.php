@@ -30,6 +30,7 @@
     <div class="col-lg-10 col-lg-offset-1">
       <div class="heading">
         <h1><?php the_field('first_heading', 'option'); ?></h1>
+        <p class="muted"><?php the_field('sub_first_heading', 'option'); ?></p>
       </div>
     </div>
        <div class="col-lg-5 col-lg-offset-1 col-md-4 col-sm-6 left">
@@ -57,6 +58,7 @@
     <div class="col-lg-10 col-lg-offset-1">
       <div class="heading">
         <h1><?php the_field('second_heading', 'option'); ?></h1>
+        <p class="muted"><?php the_field('sub_second_heading', 'option'); ?></p>
       </div>
     </div>
     </div>
