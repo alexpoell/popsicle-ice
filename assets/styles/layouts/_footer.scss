@@ -1,0 +1,12 @@
+.footer-nav {
+  text-align: center;
+  li {
+    list-style: none;
+    display: inline;
+  }
+
+  .footer-navigation:after {
+    content: "/";
+    margin-right: 6px;
+  }
+}
