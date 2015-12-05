@@ -30,11 +30,13 @@
     <div class="col-lg-8 col-lg-offset-2 post">
 
   <article <?php post_class(); ?>>
+  <?php if( get_field('author_note') ): ?>
     <div>
        <p class="author-intro">"<?php the_field('author_note'); ?>"</p>
        <p class="author-name"><?php the_author(); ?></p>
     </div>
     <hr>
+    <?php endif; ?>
     <h2>SHOW LINKS</h2>
     <p><?php the_field('show_links'); ?></p>
     <div class="entry-content">

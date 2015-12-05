@@ -28,8 +28,8 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-10 col-lg-offset-1">
-      <div class="heading">
-        <h1><?php the_field('first_heading', 'option'); ?></h1>
+      <div>
+        <h1 class="heading"><?php the_field('first_heading', 'option'); ?></h1>
         <p class="muted"><?php the_field('sub_first_heading', 'option'); ?></p>
       </div>
     </div>
@@ -56,8 +56,8 @@
   <?php get_search_form(); ?>
 <?php endif; ?>
     <div class="col-lg-10 col-lg-offset-1">
-      <div class="heading">
-        <h1><?php the_field('second_heading', 'option'); ?></h1>
+      <div>
+        <h1 class="heading"><?php the_field('second_heading', 'option'); ?></h1>
         <p class="muted"><?php the_field('sub_second_heading', 'option'); ?></p>
       </div>
     </div>
