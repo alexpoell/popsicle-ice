@@ -93,18 +93,16 @@ body, html {
      font-family: 'averta';
 }
 
+h2 {
+    color: $purple;
+    font-size: 22px;
+}
+
 /*Literally center all the things*/
 .center {
     text-align: center;
 }
 
-.footer-head {
-    color: $purple;
-    font-size: 22px;
+hr {
+    border-top: 1px solid $purple;
 }
-
-.footer-blurb {
-    color: white;
-    font-size: 15px;
-}
-

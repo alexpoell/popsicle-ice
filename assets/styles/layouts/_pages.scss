@@ -2,6 +2,11 @@
   margin-bottom: 50px;
 }
 
+.homepage-box {
+  .powerpress_links {
+    display: none;
+  }
+}
 
   .video-box {
     border: 1px solid white;
@@ -18,17 +23,19 @@
 
   .white-box {
     background: white;
-    padding: 20px;
-
-    margin-bottom: 20px;
+    padding: 10px 20px 0px 20px;
   }
 
  .white-box:first-of-type {
     background: white;
     padding: 20px;
 
-    margin-bottom: 20px;
+
     margin-top:20px;
+  }
+
+   .homepage-box:last-of-type {
+    margin-bottom:20px;
   }
 
 .updated {
@@ -37,6 +44,13 @@
 
 .entry-summary {
     padding-top: 10px;
+    .powerpress_player {
+      margin-top: 10px;
+    }
+
+    .powerpress_links {
+      padding-top: 5px;
+    }
 }
 
 /* Author boxes on home page -- MOVE THIS LATER */
@@ -44,7 +58,6 @@
   color: $purple;
   padding: 40px 40px 40px 40px;
   background: white;
-  margin-top: 40px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
 -moz-box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
@@ -68,4 +81,23 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
 .muted {
   color: $grey;
   font-size: 16px;
+}
+
+.podcasts {
+  h2 {
+  font-size: 15px;
+  margin-bottom: 0px;
+}
+}
+
+.heading {
+  h1 {
+    margin-top: 15px;
+  font-size: 22px;
+  color: $purple;
+  }
+
+  margin-top: 30px;
+  border-top: 1px solid $purple;
+  text-transform: uppercase;
 }

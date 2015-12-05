@@ -30,14 +30,14 @@ Template Name: Subscribe page
       </div>
       <div class="row bump">
         <div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2 col-sm-6 left">
-          <div class="creators ">
+          <div class="creators-subscribe">
             <img src="/images/charli.png">
              <p>CHARLI MARIE | <a href="http://twitter.com/charliprangley">@charliprangley</a></p>
              <p>Living in London, Charli works full time as a marketing designer at retail analytics startup, <a href="http://edited.com/">EDITED</a>. When she’s not busy designing websites and swag, she’s <a href="https://www.youtube.com/user/charlimarieTV">editing videos</a>, <a href="http://linernotekids.com">selling her own t-shirts</a> or <a href="http://charlimarie.com/">writing honest thoughts on her blog.</a></p>
           </div>
         </div>
         <div class="col-lg-4 col-md-4 col-sm-6 right">
-          <div class="creators ">
+          <div class="creators-subscribe">
             <img src="/images/fem.png">
             <p>FEMKE VS | <a href="http://twitter.com/femkesvs">@femkesvs</a></p>
             <p>From the canals of Amsterdam, Femke works by day in marketing and communications at <a href="http://atomic.io">Atomic</a> and by night as a <a href="http://theapartment.co">digital design freelancer</a>. Otherwise Femke is either catching up with other designers <a href="http://theapartment.co/blog/">on her blog</a> or <a href="https://instagram.com/apartmentdigital/">taking pictures.</a></p>
@@ -46,7 +46,7 @@ Template Name: Subscribe page
       </div>
       <div class="row">
         <div class="col-lg-2 col-lg-offset-5 center">
-          <a target="_blank" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fdesignlife.fm&text=Excited%20for%20@charliprangley%20and%20@femkesvs%27%20podcast%20DESIGN%20LIFE%20-%20coming%20Nov%2030th%21%20@DesignLifeFM&
+          <a target="_blank" href="https://twitter.com/intent/tweet?url=http%3A%2F%2Fdesignlife.fm&text=I%20just%20signed%20up%20for%20@charliprangley%20and%20@femkesvs%27%20podcast%2C%20@designlifefm.%20You%20should%20too%21&
 "><button class="invert-button">Share this!</button></a>
         </div>
       </div>

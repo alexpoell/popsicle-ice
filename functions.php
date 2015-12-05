@@ -42,3 +42,4 @@ function remove_podpress_from_automatic_excerpts() {
     }
   }
 }
+

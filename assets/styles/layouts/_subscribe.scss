@@ -57,11 +57,11 @@ html, body {
      color: $purple;
 }
 
-.creators {
+.creators-subscribe {
   color: $purple;
   padding: 40px 40px 40px 40px;
-  background: white;
   margin-top: 40px;
+  background: white;
   border-radius: 5px;
   -webkit-box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
 -moz-box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
@@ -79,11 +79,11 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
 }
 
 .left {
-  padding-left: 0px;
+
 }
 
 .right {
-  padding-right: 0px;
+
 }
 
 .convert {
@@ -148,13 +148,6 @@ h1 {
 
 .lead {
   @include center();
-}
-
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
 }
 
 .container-narrow > hr {
