@@ -28,26 +28,32 @@
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 post">
-
-  <article <?php post_class(); ?>>
-  <?php if( get_field('author_note') ): ?>
-    <div>
-       <p class="author-intro">"<?php the_field('author_note'); ?>"</p>
-       <p class="author-name"><?php the_author(); ?></p>
-    </div>
-    <hr>
+    <?php if( get_field('author_note') ): ?>
+      <div class="col-lg-4 thumb">
+        <?php
+        if ( has_post_thumbnail() ) {
+          the_post_thumbnail();
+        }
+        ?>
+      </div>
+      <div class="col-lg-8">
+         <p class="author-intro">"<?php the_field('author_note'); ?>"</p>
+         <p class="author-name"><?php the_author(); ?></p>
+      </div>
     <?php endif; ?>
-    <h2>SHOW LINKS</h2>
-    <p><?php the_field('show_links'); ?></p>
-    <div class="entry-content">
-      <?php the_content(); ?>
-    </div>
-    <hr>
-    <h2>SHARE THE SHOW</h2>
-    <?php echo do_shortcode("[ssba]"); ?>
-    <footer>
-      <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
-    </footer>
+    <article <?php post_class(); ?>>
+      <hr>
+      <h2>SHOW LINKS</h2>
+      <p><?php the_field('show_links'); ?></p>
+      <div class="entry-content">
+        <?php the_content(); ?>
+      </div>
+      <hr>
+      <h2>SHARE THE SHOW</h2>
+      <?php echo do_shortcode("[ssba]"); ?>
+      <footer>
+        <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
+      </footer>
 
   </article>
 <?php endwhile; ?>

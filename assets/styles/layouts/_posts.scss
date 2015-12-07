@@ -2,6 +2,7 @@
   background: white;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .post-header {
@@ -40,6 +41,7 @@
   color: #C29DF3;
   font-size: 25px;
   font-weight: 100;
+  line-height: 30px;
 }
 
 .author-name {
@@ -48,4 +50,12 @@
 
 .read-more {
   padding-top: 5px;
+}
+
+.thumb {
+  padding-left: 0px;
+  img {
+  width: 100%;
+  height: auto;
+}
 }
