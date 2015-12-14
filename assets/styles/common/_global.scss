@@ -106,3 +106,45 @@ h2 {
 hr {
     border-top: 1px solid $purple;
 }
+
+.wpcf7-form-control-wrap {
+    input, textarea {
+        width: 100%;
+        border: 0px solid transparent;
+        padding: 10px;
+    }
+}
+
+.wpcf7 p {
+    text-align: left;
+    color: black;
+    font-size: 16px;
+}
+
+.wpcf7-submit {
+    background-color: $light;
+    padding: 5px 40px 5px 40px;
+    text-transform: uppercase;
+    border: none;
+    outline:none;
+    color: white;
+}
+
+.wpcf7-response-output {
+    display: none;
+}
+
+div.wpcf7-mail-sent-ok, div.wpcf7-validation-errors {
+    border: 0px solid transparent;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: 5px;
+}
+
+div.wpcf7-validation-errors {
+    color: red;
+}
+
+.contact {
+    margin-bottom: 40px;
+}
