@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Subscribe page
+Template Name: Subscribe thanks page
 */
 ?>
 <?php get_template_part('templates/page', 'header'); ?>
@@ -16,7 +16,7 @@ Template Name: Subscribe page
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 convert">
           <h3>Just one last thing...</h3>
-          <p>Head to your inbox and hit the confirm link we've just sent you -- then you're all done!</p>
+          <p><?php the_field('signup_thanks'); ?></p>
         </div>
       </div>
       <div class="row">
