@@ -29,7 +29,7 @@ unset($file, $filepath);
 //For fixing navigation in Sage. Added 25/11/15
 require_once('wp_bootstrap_navwalker.php');
 
-$home = "homepage";
+$home = "Homepage";
 acf_add_options_page( $home );
 
 add_action('pre_get_posts', 'remove_podpress_from_automatic_excerpts');
