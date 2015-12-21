@@ -117,8 +117,10 @@ hr {
 
 .wpcf7 p {
     text-align: left;
-    color: black;
+    color: $muted;
     font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 8px;
 }
 
 .wpcf7-submit {
@@ -128,6 +130,10 @@ hr {
     border: none;
     outline:none;
     color: white;
+}
+
+.wpcf7-form-control {
+    margin-top: 5px;
 }
 
 .wpcf7-response-output {
