@@ -1,8 +1,18 @@
+
 .post {
   background: white;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding-top: 20px;
+}
+
+.pad-post {
+  .top {
+    margin-top: 40px;
+    padding-top: 20px;
+  }
+
+  .bottom {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+  }
 }
 
 .post-header {

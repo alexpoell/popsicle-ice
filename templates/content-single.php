@@ -25,9 +25,10 @@
     </div>
   </div>
 </div>
-<div class="container">
+<div class="container pad-post">
+
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 post">
+    <div class="col-lg-8 col-lg-offset-2 post top">
     <?php if( get_field('author_note') ): ?>
       <div class="col-lg-4 thumb">
         <?php
@@ -41,7 +42,11 @@
          <p class="author-name"><?php the_author(); ?></p>
       </div>
     <?php endif; ?>
-    <article <?php post_class(); ?>>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 post bottom">
+    <!--<article <?php post_class(); ?>>-->
       <hr>
       <h2>SHOW LINKS</h2>
       <p><?php the_field('show_links'); ?></p>
@@ -55,8 +60,10 @@
         <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
       </footer>
 
-  </article>
+  <!--</article>-->
 <?php endwhile; ?>
+  </div>
+</div>
 
     </div>
   </div>
