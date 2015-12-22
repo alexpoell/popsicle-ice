@@ -49,7 +49,7 @@
     <!--<article <?php post_class(); ?>>-->
       <hr>
       <h2>SHOW LINKS</h2>
-      <p><?php the_field('show_links'); ?></p>
+      <div class="entry-content"><?php the_field('show_links'); ?></div>
       <div class="entry-content">
         <?php the_content(); ?>
       </div>

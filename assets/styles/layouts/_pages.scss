@@ -3,9 +3,22 @@
 }
 
 .homepage-box {
+  display: flex;
+    align-items: center;
   .powerpress_links {
     display: none;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/*Add padding to rows to fix BG overflow*/
+.home-fix {
+ padding-left: 20px;
+ padding-right: 20px;
 }
 
   .video-box {
@@ -23,15 +36,21 @@
 
   .white-box {
     background: white;
-    padding: 10px 20px 0px 20px;
+    padding: 0px;
   }
 
  .white-box:first-of-type {
     background: white;
-    padding: 20px;
-
-
     margin-top:20px;
+  }
+
+  .podcast-player {
+    padding: 0px;
+    margin-bottom: 20px;
+
+    .powerpress_links {
+      display:none;
+    }
   }
 
    .homepage-box:last-of-type {
@@ -44,6 +63,7 @@
 
 .entry-summary {
     padding-top: 10px;
+    font-family: "averta-light";
     .powerpress_player {
       margin-top: 10px;
     }
@@ -98,4 +118,12 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
   margin-top: 30px;
   border-top: 1px solid $purple;
   text-transform: uppercase;
+}
+
+/*Turn off flexbox -- this should be moved to a media queries CSS file*/
+@media (max-width: 768px) {
+    .homepage-box {
+        padding-top: 20px;
+        display: block !important;
+    }
 }

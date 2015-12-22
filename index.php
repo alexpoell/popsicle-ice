@@ -62,7 +62,7 @@
       </div>
     </div>
     </div>
-    <div class="row">
+    <div class="row home-fix">
 <?php while (have_posts()) : the_post(); ?>
 
 

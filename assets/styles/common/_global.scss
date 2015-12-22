@@ -64,26 +64,13 @@ The Information above must always remain unedited and in your CSS.
 
 @font-face {
     font-family: 'averta';
-    src: url('averta-bold-webfont.eot');
-    src: url('averta-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('averta-bold-webfont.woff2') format('woff2'),
-         url('averta-bold-webfont.woff') format('woff'),
-         url('averta-bold-webfont.ttf') format('truetype'),
-         url('averta-bold-webfont.svg#avertabold') format('svg');
-    font-weight: 700;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'averta';
-    src: url('averta-bolditalic-webfont.eot');
-    src: url('averta-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('averta-bolditalic-webfont.woff2') format('woff2'),
-         url('averta-bolditalic-webfont.woff') format('woff'),
-         url('averta-bolditalic-webfont.ttf') format('truetype'),
-         url('averta-bolditalic-webfont.svg#avertabold') format('svg');
-    font-weight: 700;
+    src: url('averta-light-webfont.eot');
+    src: url('averta-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('averta-light-webfont.woff2') format('woff2'),
+         url('averta-light-webfont.woff') format('woff'),
+         url('averta-light-webfont.ttf') format('truetype'),
+         url('averta-light-webfont.svg#avertalight') format('svg');
+    font-weight: 600;
     font-style: italic;
 
 }
