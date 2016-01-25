@@ -141,3 +141,14 @@ div.wpcf7-validation-errors {
 .contact {
     margin-bottom: 40px;
 }
+
+/* iPad [portrait + landscape] */
+@media only screen and (max-device-width: 1024px) {
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 25px !important;
+    }
+}
