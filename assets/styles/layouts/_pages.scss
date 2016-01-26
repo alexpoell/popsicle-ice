@@ -37,6 +37,10 @@
   .white-box {
     background: white;
     padding: 0px;
+  }
+
+  .podcast-box {
+    background: white;
     margin-bottom: 25px;
   }
 
@@ -45,13 +49,18 @@
     margin-top:20px;
   }
 
+  .podcast-holder {
+    bottom: 0px;
+  }
+
+  .powerpress_links {
+      display:none;
+    }
   .podcast-player {
     padding: 0px;
     margin-bottom: 20px;
 
-    .powerpress_links {
-      display:none;
-    }
+
   }
 
    .homepage-box:last-of-type {
