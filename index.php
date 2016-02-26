@@ -71,7 +71,13 @@
 
     <?php endwhile; ?>
   </div>
+
+  <div class="row">
+    <div class="col-lg-3 col-lg-offset-1">
+      <div class="nav-previous alignleft"><?php next_posts_link( '< Older posts' ); ?></div>
+    </div>
+    <div class="col-lg-3 col-lg-offset-4">
+      <div class="nav-next alignright"><?php previous_posts_link( 'Newer posts >' ); ?></div>
+    </div>
+  </div>
 </div>
-
-
-<?php the_posts_navigation(); ?>
