@@ -141,3 +141,43 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
         display: block !important;
     }
 }
+
+.archive-box {
+  background: white;
+  padding: 5px 20px 30px 20px;
+}
+
+.archive {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.archive-contain {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .entry-title a {
+    color: #934EF2;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  p{
+    margin-bottom: 25px;
+  }
+
+  .button {
+    background: #934EF2;
+    color: #fff;
+    padding: 10px 35px 10px 35px;
+    margin: 7px;
+
+    &:hover {
+      background: $light;
+      text-decoration: none;
+    }
+  }
+
+}
