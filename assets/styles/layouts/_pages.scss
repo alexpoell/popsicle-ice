@@ -1,5 +1,10 @@
 .hero-video {
-  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: -320px;
+}
+
+.body-copy {
+  margin-top: 280px;
 }
 
 .homepage-box {
@@ -15,15 +20,20 @@
   }
 }
 
-/*Add padding to rows to fix BG overflow*/
-.home-fix {
- padding-left: 20px;
- padding-right: 20px;
+.host {
+  img {
+    width: 100%;
+  }
+
+  .name {
+    font-size: 18px;
+  }
 }
 
-  .video-box {
-    border: 1px solid white;
-    padding: 15px;
+/*Add padding to rows to fix BG overflow*/
+  .home-fix {
+   padding-left: 20px;
+   padding-right: 20px;
   }
 
   .hero-left {
@@ -130,8 +140,11 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
   font-size: 22px;
   color: $purple;
   margin-top: 30px;
-  border-top: 1px solid $purple;
   text-transform: uppercase;
+}
+
+.line {
+    border-top: 1px solid $purple;
 }
 
 /*Turn off flexbox -- this should be moved to a media queries CSS file*/
@@ -168,16 +181,18 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
     margin-bottom: 25px;
   }
 
-  .button {
-    background: #934EF2;
-    color: #fff;
-    padding: 10px 35px 10px 35px;
-    margin: 7px;
+}
 
-    &:hover {
-      background: $light;
-      text-decoration: none;
-    }
+
+.button {
+  background: #934EF2;
+  color: #fff;
+  padding: 10px 35px 10px 35px;
+  margin: 7px;
+
+  &:hover {
+    background: $light;
+    text-decoration: none;
+    color: white;
   }
-
 }

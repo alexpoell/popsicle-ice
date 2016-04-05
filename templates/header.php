@@ -9,7 +9,7 @@
               <span class="icon-bar"></span>
         </button>
         <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
-        <p class="slogan"><?php echo $bloginfo = get_bloginfo ( 'description' ); ?></p>
+        <span class="slogan"><?php echo $bloginfo = get_bloginfo ( 'description' ); ?></span>
       </div>
 
        <?php
