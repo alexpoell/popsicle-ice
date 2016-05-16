@@ -28,7 +28,22 @@
   .name {
     font-size: 18px;
   }
+
+  p {
+    font-size: 16px;
+  }
+
+  .button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }
+
+  .body-box {
+    background: #F4F4F4;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
 /*Add padding to rows to fix BG overflow*/
   .home-fix {
@@ -75,6 +90,35 @@
 
    .homepage-box:last-of-type {
     margin-bottom:20px;
+  }
+
+  .live-box {
+    background: white;
+    display: flex;
+    border: 1px solid #DDDDDD;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+
+    align-items: center;
+    padding: 40px;
+    margin-bottom: 30px;
+  }
+
+  .live {
+    .creators {
+      border-left: 1px solid #DDDDDD;
+      border-right: 1px solid #DDDDDD;
+      border-bottom: 1px solid #DDDDDD;
+    }
+
+    .bump {
+      margin-bottom: 30px;
+    }
+
+    .muted {
+      color: $light;
+    }
   }
 
 .updated {
@@ -147,6 +191,11 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
     border-top: 1px solid $purple;
 }
 
+.video-box {
+  padding: 15px;
+  border: 1px solid $purple;
+}
+
 /*Turn off flexbox -- this should be moved to a media queries CSS file*/
 @media (max-width: 768px) {
     .homepage-box {
@@ -155,9 +204,70 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
     }
 }
 
+@media (max-width: 468px) {
+    .host {
+      margin-bottom: 20px;
+    }
+
+    .slogan {
+      display: none;
+    }
+
+    .dark-block {
+      margin-top: -200px;
+      padding-top: 250px;
+      padding-bottom: 150px;
+    }
+
+    .navbar-right li:last-child a {
+      padding-left: 7px;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+      border: 0px solid $black;
+    }
+}
+
 .archive-box {
   background: white;
   padding: 5px 20px 30px 20px;
+}
+
+.live-box {
+  .form-control {
+    border: 2px solid $purple !important;
+    border-radius: 2px;
+    width: 74%;
+    padding: 10px;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 42px;
+    margin-right: -30px;
+    display: inline;
+  }
+
+  .btn {
+    width: 25%;
+    margin-top:-3px;
+    padding: 10px 0px 10px 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+
+  .nopad {
+    .left {
+      padding-left: 0px;
+    }
+    .right {
+      padding-right: 0px;
+    }
+  }
+
+  .tiny {
+    font-size: 11px;
+    padding-top: 10px;
+  }
 }
 
 .archive {
@@ -187,8 +297,8 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
 .button {
   background: #934EF2;
   color: #fff;
-  padding: 10px 35px 10px 35px;
-  margin: 7px;
+  padding: 10px 47px 10px 47px;
+  border-radius: 0px;
 
   &:hover {
     background: $light;
@@ -196,3 +306,5 @@ box-shadow: 0px 9px 24px 8px rgba(207,207,207,0.12);
     color: white;
   }
 }
+
+

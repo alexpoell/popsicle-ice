@@ -11,6 +11,12 @@
   background: transparent;
 }
 
+.brand {
+  img {
+    width: 100px;
+  }
+}
+
 .navbar-default {
   background: transparent;
   border: transparent;
@@ -24,6 +30,7 @@
 
 .navbar-header{
   padding-top: 15px;
+  padding-bottom: 15px;
 }
 .navbar li {
   text-transform: uppercase;
@@ -31,12 +38,22 @@
 
 .navbar-default .navbar-nav>li>a {
   color: white;
+
+  &:hover {
+    color: $light;
+  }
+}
+
+.navbar-nav>li {
+  margin-top: 8px;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   color: white;
   border-bottom: 1px solid white;
   background: transparent;
+  padding: 0; /*removing spacing*/
+  margin: 14px; /*add spacing*/
 }
 
 .dark-block {
@@ -48,10 +65,16 @@
 }
 
 .navbar-right li:last-child a {
-  background: $purple;
-  color: white;
-  padding: 7px;
+  background: #934EF2;
+  color: #fff;
+  padding: 10px 35px 10px 35px;
   margin: 7px;
+
+  &:hover {
+    background: $light;
+    text-decoration: none;
+    color: white;
+  }
 }
 
 @media only screen and (max-width : 768px) {

@@ -1,5 +1,5 @@
 <footer class="content-info">
-<div class="dark-block footer">
+<div class="footer">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3 center subscribe-footer">

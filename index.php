@@ -33,7 +33,7 @@
       </div>
     </div>
        <div class="col-lg-5 col-lg-offset-1 col-md-4 col-sm-6 left host">
-          <img src="<?php $image = get_field('host_image_one', 'option'); echo($image['sizes']['medium']); ?>" alt="Charli" />
+          <img src="<?php $image = get_field('host_image_one', 'option'); echo($image['sizes']['large']); ?>" alt="Charli" />
           <div class="creators center">
              <p class="name">CHARLI MARIE</p>
              <p>Living in London, Charli works full time as a marketing designer at retail analytics startup, <a href="http://edited.com/">EDITED</a>. When she’s not busy designing websites and swag, she’s <a href="https://www.youtube.com/user/charlimarieTV">editing videos</a>, <a href="http://linernotekids.com">selling her own t-shirts</a> or <a href="http://charlimarie.com/">writing honest thoughts on her blog.</a></p>
@@ -41,11 +41,11 @@
           </div>
         </div>
         <div class="col-lg-5 col-md-4 col-sm-6 right host">
-          <img src="<?php $image = get_field('host_image_two', 'option'); echo($image['sizes']['medium']); ?>" alt="Charli" />
+          <img src="<?php $image = get_field('host_image_two', 'option'); echo($image['sizes']['large']); ?>" alt="Charli" />
           <div class="creators center">
             <p class="name">FEMKE VS</p>
             <p>From the canals of Amsterdam, Femke works by day in marketing and communications at <a href="http://atomic.io">Atomic</a> and by night as a <a href="http://theapartment.co">digital design freelancer</a>. Otherwise Femke is either catching up with other designers <a href="http://theapartment.co/blog/">on her blog</a> or <a href="https://instagram.com/apartmentdigital/">taking pictures.</a></p>
-            <a href="http://twitter.com/femkesvs">@femkesvs</a>
+            <a class="button" href="http://twitter.com/femkesvs">@femkesvs</a>
           </div>
         </div>
   </div>

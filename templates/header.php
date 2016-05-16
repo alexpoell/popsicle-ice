@@ -8,7 +8,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
         </button>
-        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+        <a class="brand" href="<?= esc_url(home_url('/')); ?>"><img src="<?php $image = get_field('site_logo', 'option'); echo($image); ?>"></a>
         <span class="slogan"><?php echo $bloginfo = get_bloginfo ( 'description' ); ?></span>
       </div>
 
