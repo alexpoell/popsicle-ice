@@ -1,18 +1,47 @@
 
 .post {
   background: white;
+  border: 1px solid #DDD;
+}
+
+.post-bump {
+  margin-bottom: 40px;
+}
+
+.unpad {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.section-wrap {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.bump-top {
+  margin-top: 40px;
+}
+
+.entry-content {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .pad-post {
   .top {
-    margin-top: 40px;
-    padding-top: 20px;
+    padding-top: 30px;
   }
 
   .bottom {
     margin-bottom: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
+}
+
+.dual-column {
+  column-count: 2;
+  column-gap: 4em;
+  column-rule: 1px solid #ddd;
 }
 
 .post-header {
@@ -49,7 +78,7 @@
 }
 
 .author-intro {
-  color: #C29DF3;
+  color: $purple;
   font-size: 25px;
   font-weight: 100;
   line-height: 30px;

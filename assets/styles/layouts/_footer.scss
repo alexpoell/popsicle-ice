@@ -9,6 +9,11 @@
 
     &:hover {
       text-decoration: none;
+      color: $purple;
+    }
+
+    &:visited {
+      color: white;
     }
   }
 
@@ -21,6 +26,10 @@
       &:after {
         content: "/";
         margin-left: 8px;
+      }
+
+      &:last-child:after {
+        content: "";
       }
     }
   }

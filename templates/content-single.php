@@ -25,47 +25,79 @@
     </div>
   </div>
 </div>
-<div class="container pad-post">
-
+<div class="container pad-post post-bump bump-top">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 post top">
+    <div class="col-lg-8 col-lg-offset-2 post top bottom">
     <?php if( get_field('author_note') ): ?>
-      <div class="col-lg-4 thumb">
-        <?php
-        if ( has_post_thumbnail() ) {
-          the_post_thumbnail();
-        }
-        ?>
-      </div>
-      <div class="col-lg-8">
+      <div class="col-lg-10 col-lg-offset-1">
          <p class="author-intro">"<?php the_field('author_note'); ?>"</p>
-         <p class="author-name"><?php the_author(); ?></p>
+         <h3 class="author-name"><?php the_author(); ?></h3>
       </div>
     <?php endif; ?>
     </div>
   </div>
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 post bottom">
-    <!--<article <?php post_class(); ?>>-->
-      <hr>
-      <h2>SHOW LINKS</h2>
-      <div class="entry-content"><?php the_field('show_links'); ?></div>
-      <div class="entry-content">
-        <?php the_content(); ?>
-      </div>
-      <hr>
-      <h2>SHARE THE SHOW</h2>
-      <?php echo do_shortcode("[ssba]"); ?>
-      <footer>
-        <?php wp_link_pages(['before' => '<nav class="page-nav"><p>' . __('Pages:', 'sage'), 'after' => '</p></nav>']); ?>
-      </footer>
-
-  <!--</article>-->
-<?php endwhile; ?>
-  </div>
 </div>
 
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 unpad">
+      <hr>
+      <h3 class="uppercase center section-wrap">Key takeaways</h3>
     </div>
   </div>
-
+</div>
+<div class="container pad-post">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 post top bottom">
+      <div class="entry-content dual-column"><?php the_field('key_takeaways'); ?></div>
+   </div>
+  </div>
+</div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 unpad">
+        <hr>
+        <h3 class="uppercase center section-wrap">Show timestamps</h3>
+      </div>
+    </div>
+  </div>
+  <div class="container pad-post">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 post top bottom">
+        <div class="entry-content dual-column"><?php the_field('show_timestamps'); ?></div>
+     </div>
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 unpad">
+      <hr>
+      <h3 class="uppercase center section-wrap">Show links</h3>
+    </div>
+  </div>
+</div>
+<div class="container pad-post">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 post top bottom">
+      <div class="entry-content dual-column"><?php the_field('show_links'); ?></div>
+   </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 unpad">
+      <hr>
+      <h3 class="uppercase center section-wrap">Show credits</h3>
+    </div>
+  </div>
+</div>
+<div class="container pad-post">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 post bottom top">
+      <div class="entry-content dual-column"><?php the_field('show_credits'); ?></div>
+   </div>
+  </div>
+</div>
+</div>
+  <?php endwhile; ?>
 </div>

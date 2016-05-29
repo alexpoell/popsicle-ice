@@ -85,9 +85,18 @@ h2 {
     font-size: 22px;
 }
 
+h3 {
+    color: $purple;
+    font-size: 16px;
+}
+
 /*Literally center all the things*/
 .center {
     text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 hr {
