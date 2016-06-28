@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-4 col-lg-offset-2">
-        <p class="episode-number">Episode <?php the_field('episode_number'); ?></p>
+        <h4 class="episode-number">Episode <?php the_field('episode_number'); ?></h4>
         <?php get_template_part('templates/entry-meta'); ?>
         <h1 class="post-header"><?php the_title(); ?></h1>
       </div>
@@ -17,7 +17,7 @@
 <div class="player-block">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-lg-offset-2">
+      <div class="col-lg-8 col-lg-offset-2 spacing-fix">
       <?php $podcast_content = get_the_powerpress_content(); ?>
 
       <?php the_powerpress_content(); ?>
@@ -38,6 +38,7 @@
   </div>
 </div>
 
+<?php if( get_field('key_takeaways') ): ?>
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 unpad">
@@ -53,6 +54,8 @@
    </div>
   </div>
 </div>
+<?php endif; ?>
+<?php if( get_field('show_timestamps') ): ?>
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 unpad">
@@ -68,6 +71,8 @@
      </div>
     </div>
   </div>
+<?php endif; ?>
+<?php if( get_field('show_links') ): ?>
   <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 unpad">
@@ -83,6 +88,8 @@
    </div>
   </div>
 </div>
+<?php endif; ?>
+<?php if( get_field('show_credits') ): ?>
 <div class="container">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 unpad">
@@ -98,6 +105,7 @@
    </div>
   </div>
 </div>
+<?php endif; ?>
 </div>
   <?php endwhile; ?>
 </div>

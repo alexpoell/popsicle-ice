@@ -36,10 +36,55 @@ a:hover {
   color: $purple;
 }
 
+.nopad {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.testimonial {
+  text-align: center;
+  p {
+    color: $purple;
+  }
+}
 
 
-.container {
+.sub-box {
+  .form-control {
+    border: 2px solid $purple !important;
+    border-radius: 2px;
+    width: 74%;
+    padding: 10px;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 42px;
+    margin-right: -30px;
+    display: inline;
+    background: transparent;
+  }
 
+  .btn {
+    width: 25%;
+    margin-top:-2px;
+    padding: 10px 0px 10px 0px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+  }
+
+  .nopad {
+    .left {
+      padding-left: 0px;
+    }
+    .right {
+      padding-right: 0px;
+    }
+  }
+
+  .tiny {
+    font-size: 11px;
+    padding-top: 10px;
+  }
 }
 
 .browserupgrade {
@@ -190,9 +235,9 @@ h1 {
     }
 
     .vcenter {
-          position: relative;
-  top: 0%;
-  transform: translateY(0%);
+      position: relative;
+      top: 0%;
+      transform: translateY(0%);
     }
 
     .footing {
@@ -218,14 +263,14 @@ h1 {
     }
 
     .left {
-  padding-left: 0px;
-   padding-right: 0px;
-}
+      padding-left: 0px;
+      padding-right: 0px;
+    }
 
-.right {
-  padding-left: 0px;
-  padding-right: 0px;
-}
+    .right {
+      padding-left: 0px;
+      padding-right: 0px;
+    }
   }
 
     @media only screen and (max-height : 985px) {

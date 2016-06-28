@@ -56,15 +56,15 @@
   margin-bottom: 5px;
 }
 
-.player-block {
+.mejs-container, .mejs-controls {
+  background: $purple !important;
+}
+
+.podcast-box {
   background: $purple;
 
   .powerpress_links, .powerpress_links_mp3 {
     display: none;
-  }
-
-  .mejs-mediaelement, .mejs-controls, .mejs-container {
-    background: $purple !important;
   }
 
   .mejs-controls .mejs-time-rail .mejs-time-current {
@@ -73,6 +73,15 @@
 
   .powerpress_player {
     margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+.player-block {
+  background: $purple;
+  width: 100%;
+
+  .spacing-fix {
     margin-bottom: 10px;
   }
 }
@@ -103,4 +112,11 @@
 .entry-content {
   color: $black;
   line-height: 25px;
+}
+
+
+@media only screen and (max-width : 768px) {
+  .dual-column {
+    column-count: 1 !important;
+  }
 }

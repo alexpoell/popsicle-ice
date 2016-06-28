@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-lg-6 col-lg-offset-3 center subscribe-footer">
         <img class="megaphone" src="/images/megaphone.png">
-        <h2 class="footer-head"><?php the_field('footer_header', 'option'); ?></h2>
+        <h2 class="footer-head uppercase"><?php the_field('footer_header', 'option'); ?></h2>
         <p><?php the_field('footer_blurb', 'option'); ?></p>
         <form action="http://designlife.us12.list-manage1.com/subscribe/post" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate="">
                 <input type="hidden" name="u" value="21bda0167c84a2842d8917290">
