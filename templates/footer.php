@@ -18,6 +18,12 @@
             </form>
       </div>
     </div>
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 center icons">
+        <!-- <span class="icon-facebook"></span> -->
+        <a href="http://twitter.com/designlifefm"><span class="icon-twitter"></span></a>
+      </div>
+    </div>
 
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2">

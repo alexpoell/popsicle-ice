@@ -8,16 +8,16 @@ Third-parties are not permitted to use these Fonts without a license.
 The Information above must always remain unedited and in your CSS.
 
 */
-
+$fontdir: "/wp-content/themes/popsicle-ice/dist/fonts/";
 
 @font-face {
     font-family: 'averta';
-    src: url('averta-regular-webfont.eot');
-    src: url('averta-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('averta-regular-webfont.woff2') format('woff2'),
-         url('averta-regular-webfont.woff') format('woff'),
-         url('averta-regular-webfont.ttf') format('truetype'),
-         url('averta-regular-webfont.svg#avertaregular') format('svg');
+    src: url($fontdir + 'averta-regular-webfont.eot');
+    src: url($fontdir + 'averta-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url($fontdir + 'averta-regular-webfont.woff2') format('woff2'),
+         url($fontdir + 'averta-regular-webfont.woff') format('woff'),
+         url($fontdir + 'averta-regular-webfont.ttf') format('truetype'),
+         url($fontdir + 'averta-regular-webfont.svg#avertaregular') format('svg');
     font-weight: 400;
     font-style: normal;
 
@@ -25,38 +25,37 @@ The Information above must always remain unedited and in your CSS.
 
 @font-face {
     font-family: 'averta';
-    src: url('averta-regularitalic-webfont.eot');
-    src: url('averta-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('averta-regularitalic-webfont.woff2') format('woff2'),
-         url('averta-regularitalic-webfont.woff') format('woff'),
-         url('averta-regularitalic-webfont.ttf') format('truetype'),
-         url('averta-regularitalic-webfont.svg#avertaregular') format('svg');
+    src: url($fontdir + 'averta-regularitalic-webfont.eot');
+    src: url($fontdir + 'averta-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url($fontdir + 'averta-regularitalic-webfont.woff2') format('woff2'),
+         url($fontdir + 'averta-regularitalic-webfont.woff') format('woff'),
+         url($fontdir + 'averta-regularitalic-webfont.ttf') format('truetype'),
+         url($fontdir + 'averta-regularitalic-webfont.svg#avertaregular') format('svg');
     font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'averta';
-    src: url('averta-semibold-webfont.eot');
-    src: url('averta-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('averta-semibold-webfont.woff2') format('woff2'),
-         url('averta-semibold-webfont.woff') format('woff'),
-         url('averta-semibold-webfont.ttf') format('truetype'),
-         url('averta-semibold-webfont.svg#avertasemibold') format('svg');
+    src: url($fontdir + 'averta-semibold-webfont.eot');
+    src: url($fontdir + 'averta-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url($fontdir + 'averta-semibold-webfont.woff2') format('woff2'),
+         url($fontdir + 'averta-semibold-webfont.woff') format('woff'),
+         url($fontdir + 'averta-semibold-webfont.ttf') format('truetype'),
+         url($fontdir + 'averta-semibold-webfont.svg#avertasemibold') format('svg');
     font-weight: 600;
     font-style: normal;
 
 }
 
-
 @font-face {
     font-family: 'averta';
-    src: url('averta-semibolditalic-webfont.eot');
-    src: url('averta-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('averta-semibolditalic-webfont.woff2') format('woff2'),
-         url('averta-semibolditalic-webfont.woff') format('woff'),
-         url('averta-semibolditalic-webfont.ttf') format('truetype'),
-         url('averta-semibolditalic-webfont.svg#avertasemibold_italic') format('svg');
+    src: url($fontdir + 'averta-semibolditalic-webfont.eot');
+    src: url($fontdir + 'averta-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url($fontdir + 'averta-semibolditalic-webfont.woff2') format('woff2'),
+         url($fontdir + 'averta-semibolditalic-webfont.woff') format('woff'),
+         url($fontdir + 'averta-semibolditalic-webfont.ttf') format('truetype'),
+         url($fontdir + 'averta-semibolditalic-webfont.svg#avertasemibold_italic') format('svg');
     font-weight: 600;
     font-style: italic;
 
@@ -64,15 +63,58 @@ The Information above must always remain unedited and in your CSS.
 
 @font-face {
     font-family: 'averta';
-    src: url('averta-light-webfont.eot');
-    src: url('averta-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('averta-light-webfont.woff2') format('woff2'),
-         url('averta-light-webfont.woff') format('woff'),
-         url('averta-light-webfont.ttf') format('truetype'),
-         url('averta-light-webfont.svg#avertalight') format('svg');
+    src: url($fontdir + 'averta-light-webfont.eot');
+    src: url($fontdir + 'averta-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url($fontdir + 'averta-light-webfont.woff2') format('woff2'),
+         url($fontdir + 'averta-light-webfont.woff') format('woff'),
+         url($fontdir + 'averta-light-webfont.ttf') format('truetype'),
+         url($fontdir + 'averta-light-webfont.svg#avertalight') format('svg');
     font-weight: 600;
     font-style: italic;
+}
 
+@font-face {
+    font-family: 'icomoon';
+    src:    url($fontdir + 'icomoon.eot?x381v');
+    src:    url('icomoon.eot?x381v#iefix') format('embedded-opentype'),
+        url($fontdir + 'icomoon.ttf?x381v') format('truetype'),
+        url($fontdir + 'icomoon.woff?x381v') format('woff'),
+        url($fontdir + 'icomoon.svg?x381v#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+    content: "\ea90";
+}
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icons {
+    font-size: 35px;
+    margin-bottom: 20px;
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
 }
 
 /*Set default font*/
