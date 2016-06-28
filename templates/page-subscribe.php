@@ -16,7 +16,7 @@ Template Name: Subscribe page
             <input type="hidden" name="u" value="21bda0167c84a2842d8917290">
             <input type="hidden" name="id" value="d364485418">
             <div class="mobile-fix col-lg-12 col-xs-12 col-sm-12 nopad">
-              <input type="text" class="footer-input form-control" id="email" placeholder="EMAIL ADDRESS" name="EMAIL" id="mce-EMAIL"/>
+              <input type="text" class="footer-input form-control noglow" id="email" placeholder="EMAIL ADDRESS" name="EMAIL" id="mce-EMAIL"/>
               <button class="button btn footer-input">I'm in!</button>
             </div>
             <div class="col-lg-12 nopad">
