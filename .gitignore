@@ -5,3 +5,4 @@ bower_components
 node_modules
 npm-debug.log
 gulpfile.js
+wp-content/themes/popsicle-ice/dist
