@@ -26,9 +26,7 @@ Template Name: Subscribe page
         </div>
       </div>
       <div class="col-lg-4">
-        <p>Critiquing your own work is an important skill to learn, especially when it comes to side projects. When you set yourself a brief, you have to learn to look at your work in a new light and see it from an outside perspective to truly make it the best it can be.</p>
-
-        <p>In this episode we share tips for doing that and talk about the challenges of self-critique (like loving your work too much to see that something isn’t working).</p>
+        <?php the_field('subscribe_description'); ?>
       </div>
     </div>
   </div>
@@ -51,7 +49,7 @@ Template Name: Subscribe page
         while ( have_rows('testimonials') ) : the_row();?>
         <div class="col-lg-4 testimonial">
           <p><?php the_sub_field('quote'); ?></p>
-          <p class="uppercase"><strong><?php the_sub_field('name'); ?><?php if(the_sub_field('twitter_handle')):?> – <?php endif;?><?php the_sub_field('twitter_handle'); ?></strong></p>
+          <p class="uppercase"><strong><?php the_sub_field('name'); ?><?php if(get_sub_field('twitter_handle')):?> – <?php endif;?><?php the_sub_field('twitter_handle'); ?></strong></p>
         </div>
 
         <?php endwhile;?>
