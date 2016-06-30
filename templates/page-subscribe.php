@@ -34,7 +34,7 @@ Template Name: Subscribe page
 <div class="container">
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 unpad">
-        <h3 class="uppercase center section-wrap">What others say about our newsletter</h3>
+        <h3 class="uppercase center section-wrap">What our listeners say</h3>
       </div>
     </div>
   </div>
@@ -49,7 +49,7 @@ Template Name: Subscribe page
         while ( have_rows('testimonials') ) : the_row();?>
         <div class="col-lg-4 testimonial">
           <p><?php the_sub_field('quote'); ?></p>
-          <p class="uppercase"><strong><?php the_sub_field('name'); ?><?php if(get_sub_field('twitter_handle')):?> – <?php endif;?><?php the_sub_field('twitter_handle'); ?></strong></p>
+          <p class="uppercase handles"><a href="http://twitter.com/<?php the_sub_field('twitter_handle'); ?>"><strong><?php the_sub_field('twitter_handle'); ?></strong></a></p>
         </div>
 
         <?php endwhile;?>
