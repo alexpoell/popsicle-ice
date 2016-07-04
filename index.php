@@ -62,7 +62,7 @@
         <p class="muted"><?php the_field('sub_second_heading', 'option'); ?></p>
       </div>
     </div>
-    </div>
+  </div>
     <div class="row home-fix">
 <?php while (have_posts()) : the_post(); ?>
 
@@ -79,6 +79,28 @@
     </div>
     <div class="col-lg-3 col-lg-offset-4">
       <div class="nav-next alignright"><?php previous_posts_link( 'Newer posts >' ); ?></div>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-lg-10 col-lg-offset-1">
+      <div class="center">
+        <h1 class="heading line">NEVER MISS AN EPISODE</h1>
+      </div>
+    </div>
+  </div>
+  <div class="row home-fix" style="margin-bottom: 40px;">
+    <div class="col-lg-10 col-lg-offset-1 col-sm-12 col-xs-12 homepage-box podcasts white-box center signup-box">
+        <div class="col-lg-8 col-lg-offset-2 sub-box">
+        <p>Every Monday morning we'll send you an email with our new episode. Sign up to receive takeaways, summaries and alerts about our new episodes.</p>
+         <form action="http://designlife.us12.list-manage1.com/subscribe/post" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate nopad" novalidate="">
+            <input type="hidden" name="u" value="21bda0167c84a2842d8917290">
+            <input type="hidden" name="id" value="d364485418">
+            <div class="mobile-fix col-lg-12 col-xs-12 col-sm-12 nopad" style="margin-top:15px;">
+              <input type="text" class="footer-input form-control noglow" id="email" placeholder="EMAIL ADDRESS" name="EMAIL" id="mce-EMAIL" style="color:black;"/>
+              <button class="button btn footer-input">I'm in!</button>
+            </div>
+          </form>
+        </div>
     </div>
   </div>
 </div>
